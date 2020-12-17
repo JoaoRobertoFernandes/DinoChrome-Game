@@ -25,17 +25,21 @@
     0%{
         top: 150px;
     }
+
+    20%{
+        top: 120px;
+    }
     
-    30%{
-        top: 130px;
+    40%{
+        top: 100px;
     }
 
-    50%{
-        top: 80px;
+    60%{
+        top: 60px;
     }
 
     80%{
-        top: 150px;
+        top: 100px;
     }
 
     100%{
@@ -48,3 +52,28 @@
     animation: jump 0.3s linear;
 }
 /*-----------Jump----------*/
+
+/*----------Cactus----------*/
+.cactus{
+    width: 20px;
+    height: 40px;
+    position: relative;
+    top: 110px;
+    left: 580px;
+
+    background-image: url(img/cactus.png);
+    background-size: 20px 40px;
+
+    animation: block 1s infinite linear;
+}
+
+@keyframes block{
+    0%{
+        left: 580px;
+    }
+
+    100%{
+        left: -20px;
+    }
+}
+/*----------Cactus----------*/
